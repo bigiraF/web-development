@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form</title>
+    <form action="#" method="POST">
+</head>
+<body></head>
+    <body>
+        <h1>FORM</h1>
+       
+    </body>
+    </html>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+            size: 210mm 297mm;
+            margin: 0;
+
+        }
+        body{
+           
+        }
+    
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                width: 210mm;
+                height: 297mm;
+                position: center;
+            }
+
+            .content {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+
+        input[type="submit"] {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+  
+        <label for="myTextArea">Text Area:</label><br>
+        <input type="text" id="nameInput" name="nameInput" size="20">
+
+        <label for="email1">Email:</label>
+        <input type="email" id="email1" name="email1" required><br>
+
+        <label for="password">Password:</label>
+         <input type="password" id="password" name="password" required><br>
+
+        <label for="password"> confirm Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="c" name="checkbox"><br>
+
+      
+        <input type="radio" id="radio1" name="radio" value="1">
+        <label for="radio1"></label><br>
+
+        <input type="radio" id="radio2" name="radio" value="2">
+        <label for="radio2"></label><br>
+
+        <input type="radio" id="radio3" name="radio" value="3">
+        <label for="radio3"></label><br>
+
+        <label for="comment1"> Add a Comment here </label><br>
+        <textarea id="comment1" name="comment1" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+        THANK YOU FOR FILLING THE FORM
+    </form>
+</body>
+</html>
